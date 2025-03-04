@@ -9,4 +9,5 @@ Create an application that manages a library and it's contents by allowing users
 something
 
 ## Technologies
-something
+* GUI: JavaFX or Swing for user interface
+* Database:  MySQL or PostgreSQL for storing in information about books like book title, and author.
