@@ -7,9 +7,13 @@ Create an application that manages a library and it's contents by allowing users
 * **Search Contents:** Allow users to search for a book by name.
 * **Check-out/Return Books:** Users can check out or return books from the library, which will be tied to the user's account.
 * **Browse by Category:** Books will be categorized by genre. Users will be able to browse each genre to find books without searching a specific name.
+* **Filters:** Books can be sorted according to a filter, such as being in alphabetical order, reverse alphabetical order, release date, etc.
 
 ## OOP Principles Applies
-something
+* **Encapsulation:** User account will be secure
+* **Inheritance:** 
+* **Polymorphism:** 
+* **Abstraction:**
 
 ## Technologies
 * GUI: JavaFX or Swing for user interface
