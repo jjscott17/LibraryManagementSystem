@@ -10,10 +10,10 @@ Create an application that manages a library and it's contents by allowing users
 * **Filters:** Books can be sorted according to a filter, such as being in alphabetical order, reverse alphabetical order, release date, etc.
 
 ## OOP Principles Applies
-* **Encapsulation:** User account will be secure
-* **Inheritance:** 
-* **Polymorphism:** 
-* **Abstraction:**
+* **Encapsulation:** User account will be secure. It also has secure handling on the information of books. 
+* **Inheritance:** Define a general Book class with subclasses like eBook and PhysicalBook.
+* **Polymorphism:** Implement a search function that can search using title, author, and ISBN.
+* **Abstraction:** Use interface that allows user to search, borrow, or return books. 
 
 ## Technologies
 * GUI: JavaFX or Swing for user interface
