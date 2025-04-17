@@ -1,7 +1,11 @@
 package org.example;
 
+import java.util.HashMap;
+
 public class eBook extends Book{
-    public eBook(String bookTitle, int numberOfPages) {
-        super(bookTitle, numberOfPages);
+    public eBook(String bookTitle) {
+        super(bookTitle);
     }
+
+    private HashMap<String, Book> ebooks;
 }

@@ -8,11 +8,9 @@ public class Book {
 
     private HashMap<String, Book> books;
 
+    /* list of books to add to hash map */
 
-    public Book(String bookTitle, int numberOfPages) {
-        this.bookTitle = bookTitle;
-        this.numberOfPages = numberOfPages;
-    }
+    public Book() {}
 
     public Book(String bookTitle) {
         this.bookTitle = bookTitle;
@@ -40,4 +38,5 @@ public class Book {
     public int getNumberOfPages() {
         return numberOfPages;
     }
+
 }
