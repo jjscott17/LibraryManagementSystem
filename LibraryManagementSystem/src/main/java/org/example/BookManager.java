@@ -9,10 +9,11 @@ public class BookManager {
     public BookManager() {
         books = new HashMap<>();
 
-        // Add sample books
-        books.put("Harry Potter", new Book("Harry Potter", 500));
-        books.put("The Hobbit", new Book("The Hobbit", 300));
-        books.put("1984", new Book("1984", 328));
+        // Sample books
+        books.put("Harry Potter", new Book("Harry Potter", 500,"He's a wizard",true));
+        books.put("The Hobbit", new Book("The Hobbit", 300, "He's little and hairy",false));
+        books.put("1984", new Book("1984", 328, "Dystopian society",false));
+        books.put("Percy Jackson", new Book("Percy Jackson", 350, "He's a demigod",true));
     }
 
     // search for a book by it's title
